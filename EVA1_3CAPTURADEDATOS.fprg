@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="invitado"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2023-09-05 05:58:19 p. m."/>
+        <attribute name="created" value="aW52aXRhZG87TEFCMDIwNDI4OzIwMjMtMDktMDU7MDU6MjA6MDggcC4gbS47Mjg0MQ=="/>
+        <attribute name="edited" value="aW52aXRhZG87TEFCMDIwNDI4OzIwMjMtMDktMDU7MDU6NTg6MTkgcC4gbS47MjsyOTYz"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="LASTNAME" type="String" array="False" size=""/>
+            <output expression="&quot;LAST NAME=&quot;" newline="True"/>
+            <input variable="LASTNAME"/>
+            <declare name="FIRSTNAME" type="String" array="False" size=""/>
+            <output expression="&quot;FIRST NAME(s)=&quot;" newline="True"/>
+            <input variable="FIRSTNAME"/>
+            <declare name="AGE" type="Integer" array="False" size=""/>
+            <output expression="&quot;AGE=&quot;" newline="True"/>
+            <input variable="AGE"/>
+            <declare name="ADDRESS" type="String" array="False" size=""/>
+            <output expression="&quot;ADDRESS=&quot;" newline="True"/>
+            <input variable="ADDRESS"/>
+            <declare name="BLOODTYPE" type="String" array="False" size=""/>
+            <output expression="&quot;BLOOD TYPE=&quot;" newline="True"/>
+            <input variable="BLOODTYPE"/>
+            <declare name="GRADEAVG" type="Real" array="False" size=""/>
+            <output expression="&quot;GRADE POINT AVERAGE=&quot;" newline="True"/>
+            <input variable="GRADEAVG"/>
+            <declare name="HIGHSCHOOL" type="String" array="False" size=""/>
+            <output expression="&quot;HIGHSCHOOL=&quot;" newline="True"/>
+            <input variable="HIGHSCHOOL"/>
+            <output expression="LASTNAME" newline="True"/>
+            <output expression="FIRSTNAME" newline="True"/>
+            <output expression="AGE" newline="True"/>
+            <output expression="ADDRESS" newline="True"/>
+            <output expression="BLOODTYPE" newline="True"/>
+            <output expression="GRADEAVG" newline="True"/>
+            <output expression="HIGHSCHOOL" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

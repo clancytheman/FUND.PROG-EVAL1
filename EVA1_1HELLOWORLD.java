@@ -6,7 +6,7 @@ package com.mycompany.beef;
 
 /**
  *
- * @author t3sts
+ * @author DIEGO ESCARCEGA
  */
 public class EVA1_1HELLOWORLD{
 
